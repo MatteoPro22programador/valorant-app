@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #ff4655;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #ff6a75;
+}
+
+.subtitle {
+  margin-left: 10px;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+/* ---- BUSCADOR SOLO PARA SKINS ---- */
+.buscador {
+  width: 50%;
+  padding: 12px;
+  margin: 0 auto 25px auto;
+  display: block;
+  background: #1a1a1a;
+  border: 2px solid #ff4655;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.buscador:focus {
+  outline: none;
+  border-color: #ffffff;
+  background: #222;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  border: 1px solid #333;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  border-color: #ff4655;
+}
+
+.img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skills img {
+  width: 40px;
+  margin: 5px;
+  filter: drop-shadow(0 0 5px white);
+}
+
+.loading {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.searchBox {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0 25px 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #ff4655;
+  outline: none;
+  background: #222;
+  color: white;
+}
+
+.searchBox:focus {
+  border-color: #ff6a75;
+}
